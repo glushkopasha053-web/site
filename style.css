@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт */
+    margin: 0;  /* Прибрати відступи */
+    padding: 0;
+    background: #f7f9fc; /* Колір фону */
+}
+
+header {
+    background: #007bff; /* Синій фон */
+    color: white;        /* Білий текст */
+    padding: 40px 20px;  /* Відступи всередині блоку */
+    text-align: center;  /* Текст по центру */
+}
+
+header button {
+    padding: 12px 22px;  /* Розмір кнопки */
+    border: none;        /* Без рамки */
+    background: white;   /* Колір фону кнопки */
+    color: #007bff;      /* Колір тексту */
+    border-radius: 6px;  /* Закруглені кути */
+    cursor: pointer;     /* Курсор "рука" */
+    transition: 0.3s;    /* Анімація при наведенні */
+    font-size: 18px;
+}
+
+header button:hover {
+    transform: scale(1.1); /* Збільшення кнопки при наведенні */
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: white; /* Біла карточка */
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тінь */
+}
+
+h2 {
+    color: #007bff; /* Синій заголовок */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222; /* Темний фон */
+    color: white;
+    margin-top: 20px;
+}
