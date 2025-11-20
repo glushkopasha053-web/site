@@ -46,3 +46,32 @@ footer {
     color: white;
     margin-top: 20px;
 }
+/* ---- Галерея фото ---- */
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+/* Ефект збільшення при наведенні */
+.photos img:hover {
+    transform: scale(1.05);
+}
